@@ -14,6 +14,8 @@
 		88CE82B61F71AA34002EF222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CE82B41F71AA34002EF222 /* Main.storyboard */; };
 		88CE82B81F71AA34002EF222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CE82B71F71AA34002EF222 /* Assets.xcassets */; };
 		88CE82BB1F71AA34002EF222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CE82B91F71AA34002EF222 /* LaunchScreen.storyboard */; };
+		88CE82C41F71AB0C002EF222 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE82C31F71AB0C002EF222 /* Todo.m */; };
+		88CE82CA1F71BC86002EF222 /* ToDoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE82C91F71BC86002EF222 /* ToDoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		88CE82B71F71AA34002EF222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88CE82BA1F71AA34002EF222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88CE82BC1F71AA34002EF222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88CE82C21F71AB0C002EF222 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		88CE82C31F71AB0C002EF222 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		88CE82C81F71BC86002EF222 /* ToDoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoCell.h; sourceTree = "<group>"; };
+		88CE82C91F71BC86002EF222 /* ToDoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +74,11 @@
 				88CE82B11F71AA34002EF222 /* DetailViewController.h */,
 				88CE82B21F71AA34002EF222 /* DetailViewController.m */,
 				88CE82B41F71AA34002EF222 /* Main.storyboard */,
-				88CE82B71F71AA34002EF222 /* Assets.xcassets */,
-				88CE82B91F71AA34002EF222 /* LaunchScreen.storyboard */,
-				88CE82BC1F71AA34002EF222 /* Info.plist */,
 				88CE82A81F71AA34002EF222 /* Supporting Files */,
+				88CE82C21F71AB0C002EF222 /* Todo.h */,
+				88CE82C31F71AB0C002EF222 /* Todo.m */,
+				88CE82C81F71BC86002EF222 /* ToDoCell.h */,
+				88CE82C91F71BC86002EF222 /* ToDoCell.m */,
 			);
 			path = Every.Do;
 			sourceTree = "<group>";
@@ -79,6 +86,9 @@
 		88CE82A81F71AA34002EF222 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88CE82B71F71AA34002EF222 /* Assets.xcassets */,
+				88CE82B91F71AA34002EF222 /* LaunchScreen.storyboard */,
+				88CE82BC1F71AA34002EF222 /* Info.plist */,
 				88CE82A91F71AA34002EF222 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -155,10 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CE82C41F71AB0C002EF222 /* Todo.m in Sources */,
 				88CE82AD1F71AA34002EF222 /* AppDelegate.m in Sources */,
 				88CE82B01F71AA34002EF222 /* MasterViewController.m in Sources */,
 				88CE82AA1F71AA34002EF222 /* main.m in Sources */,
 				88CE82B31F71AA34002EF222 /* DetailViewController.m in Sources */,
+				88CE82CA1F71BC86002EF222 /* ToDoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

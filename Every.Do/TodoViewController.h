@@ -10,4 +10,6 @@
 
 @interface TodoViewController : UIViewController
 
+@property (nonatomic, strong) NSMutableArray *toDoList;
+
 @end

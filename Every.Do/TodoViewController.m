@@ -7,6 +7,7 @@
 //
 
 #import "TodoViewController.h"
+#import "Todo.h"
 
 @interface TodoViewController ()
 

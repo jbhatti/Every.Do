@@ -10,4 +10,9 @@
 
 @interface ToDoCell : UITableViewCell
 
+@property (nonatomic, weak) IBOutlet UILabel* titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel* todoDescriptionLabel;
+@property (nonatomic, weak) IBOutlet UILabel* priorityLabel;
+
+
 @end
